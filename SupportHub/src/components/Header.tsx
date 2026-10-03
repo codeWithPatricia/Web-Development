@@ -1,7 +1,7 @@
 import { useSettings } from '../components/SettingsContext'
 
 function Header() {
-  const { name} = useSettings()
+  const { name } = useSettings()
 
   return (
     <header className="flex items-center justify-between border-b bg-white px-6 py-4">
@@ -12,7 +12,6 @@ function Header() {
 
         <p className="text-sm text-gray-500">
           Welcome back, {name}
-
         </p>
       </div>
 
